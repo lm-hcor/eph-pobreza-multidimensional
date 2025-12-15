@@ -1,0 +1,22 @@
+# -----------------------------------------------------------
+# IGNORAR ARCHIVOS Y CARPETAS DE DATOS MASIVOS (EPH)
+# -----------------------------------------------------------
+
+# Archivos de datos originales (TXT) y procesados (SQLite, Parquet)
+*.sqlite
+*.parquet
+*.csv
+*.txt
+
+# Carpetas que contienen los datos grandes
+/1_data_bruta/
+/2_data_procesada/
+
+# -----------------------------------------------------------
+# IGNORAR ARCHIVOS TEMPORALES Y DE CONFIGURACIÓN DE R/IDE
+# -----------------------------------------------------------
+
+.Rhistory
+.RData
+.Rproj
+.DS_Store
